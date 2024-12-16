@@ -1,0 +1,22 @@
+.mtk6 {
+    color: aqua;
+    background: linear-gradient(#69ba19, #baaf19);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
+}
+
+.mtk10 {
+    color: #9cdcfe;
+    background: linear-gradient(#69ba19, #baaf1967, yellow);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+.mtk12 {
+    color: yellow;
+    background: linear-gradient(#ba8a19, #f5e505a3, yellow);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
