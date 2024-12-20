@@ -20,3 +20,17 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.monaco-workbench .activitybar>.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to right, blue, darkblue, #000);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container {
+    display: flex;
+    height: var(--editor-group-tab-height);
+    scrollbar-width: none;
+    background: linear-gradient(to right, blue, darkblue, #000);
+}
