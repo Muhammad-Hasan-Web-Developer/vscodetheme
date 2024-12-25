@@ -34,3 +34,89 @@
     scrollbar-width: none;
     background: linear-gradient(to right, blue, darkblue, #000);
 }
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-drag-region {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-app-region: drag;
+    background: linear-gradient(to bottom, black 10% 20%, transparent);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label .label-name, .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label .label-name {
+    white-space: nowrap;
+    font-weight: 600;
+    background: linear-gradient(55deg, white, whitesmoke, silver, black, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+.monaco-workbench .activitybar>.content {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, black 10% 20%, transparent);
+}
+
+.mtk1 {
+    color: #cccccc;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
+}
+
+.mtk9 {
+    color: #d7ba7d;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
+}
+
+.monaco-breadcrumbs {
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.monaco-workbench .part.statusbar>.right-items {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.monaco-workbench .part.statusbar>.left-items {
+    flex-grow: 1;
+    background: linear-gradient(-45deg, green, darkgreen, black, transparent);
+}
+
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item.has-background-color > .statusbar-item-label {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+    cursor: default;
+    flex: initial;
+    height: var(--editor-group-tab-height);
+    padding: 0 8px 0 4px;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container {
+    display: flex;
+    height: var(--editor-group-tab-height);
+    scrollbar-width: none;
+    background: linear-gradient(-45deg, green, darkgreen, black, transparent);
+}
+
+.monaco-editor .margin-view-overlays>div, .monaco-editor .view-overlays>div {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, black 10% 20%, transparent);
+}
