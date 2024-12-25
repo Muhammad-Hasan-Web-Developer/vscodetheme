@@ -1,3 +1,4 @@
+
 .mtk6 {
     color: aqua;
     background: linear-gradient(#69ba19, #baaf19);
@@ -20,8 +21,10 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+        
 
-.monaco-workbench .activitybar>.content {
+/* !! Tambahkan saja kalau perlu 🙂 ↓ !! */
+/* .monaco-workbench .activitybar>.content {                
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +36,7 @@
     height: var(--editor-group-tab-height);
     scrollbar-width: none;
     background: linear-gradient(to right, blue, darkblue, #000);
-}
+} */
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-drag-region {
     display: block;
@@ -119,4 +122,28 @@
     position: absolute;
     width: 100%;
     background: linear-gradient(to bottom, black 10% 20%, transparent);
+}
+
+.codicon-accounts-view-bar-icon:before {
+    content: '\eb99';
+    background: linear-gradient(45deg, green, darkgreen, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
+}
+
+.codicon-settings-view-bar-icon:before {
+    content: '\eb51';
+    background: linear-gradient(45deg, green, darkgreen, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
+}
+
+ .codicon-remote:before {
+    content: '\eb3a';
+    background: linear-gradient(45deg, #4eff4e, #54d454, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
 }
