@@ -66,7 +66,7 @@
 
 .mtk1 {
     color: #cccccc;
-    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+    background: linear-gradient(45deg, green, darkgreen);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: bolder;
@@ -118,12 +118,6 @@
     background: linear-gradient(-45deg, green, darkgreen, black, transparent);
 }
 
-.monaco-editor .margin-view-overlays>div, .monaco-editor .view-overlays>div {
-    position: absolute;
-    width: 100%;
-    background: linear-gradient(to bottom, black 10% 20%, transparent);
-}
-
 .codicon-accounts-view-bar-icon:before {
     content: '\eb99';
     background: linear-gradient(45deg, green, darkgreen, transparent);
@@ -147,3 +141,102 @@
     background-clip: text;
     font-weight: bolder;
 }
+
+.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-message {
+    flex: 1;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: text;
+    -webkit-user-select: text;
+    background: linear-gradient(45deg, red, pink, blue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.opacity-90 {
+    opacity: 0.9;
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.shadow-\[0_-1px_2px_0_rgba\(0\2c 0\2c 0\2c 0\.05\)\] {
+    --tw-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.05);
+    --tw-shadow-colored: 0 -1px 2px 0 var(--tw-shadow-color);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0 -1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    background: linear-gradient(45deg, green, darkgreen, black, transparent);
+}
+
+.opacity-70 {
+    opacity: 0.7;
+    background: linear-gradient(45deg, white, whitesmoke, black, transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:not(.codicon) {
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:not(.codicon) {
+    background-image: url(../../media/code-icon.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    display: block;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+}
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon {
+    flex-shrink: 0;
+    height: 100%;
+    order: 1;
+    width: 35px;
+    width: 160px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    outline: 30px solid rgba(0, 0, 0, 0.35);
+    outline-offset: -12px;
+}
+
+monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon::before,
+monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon::after {
+    position: absolute;
+  z-index: -1;
+  content: "";
+  inset: -40px;
+  border-radius: inherit;
+  background-image: conic-gradient(#00dbde, #fc00ff, #00dbde);
+  animation: rotate 3s linear infinite;
+}
+
+monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon::after {
+  filter: blur(2rem);
+  opacity: 0.7;
+}
+
+monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:hover::before,
+monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:hover::after {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  /* from {
+    rotate: 0deg;
+  } */
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+
