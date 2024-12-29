@@ -191,12 +191,12 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 16px;
-    display: block;
+/*     display: block;
     aspect-ratio: 1;
     object-fit: cover;
-    object-position: top;
+    object-position: top; */
 }
-.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon {
+/* .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon {
     flex-shrink: 0;
     height: 100%;
     order: 1;
@@ -234,9 +234,9 @@ monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appic
     rotate: 0deg;
   } */
 
-  to {
+/*   to {
     rotate: 360deg;
   }
-}
+} */
 
 
