@@ -35,10 +35,37 @@ if (!sessionStorage.getItem('visited')) {
         from {transform: translateY(-100px); opacity: 0;}
         to {transform: translateY(0); opacity: 1;}
       }
+
+       .welcome-box img {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin: 20px auto !important;
+                border: 5px solid white;
+                margin-bottom: 1em;
+            }
+            
+            .welcome-box button {
+                background: linear-gradient(45deg, #ff6b6b, #4834d4);
+                border: none;
+                padding: 1em 2em;
+                color: white;
+                border-radius: 30px;
+                font-size: 1.1em;
+                cursor: pointer;
+                margin-top: 1em;
+                transition: transform 0.3s;
+            }
+            
+            .welcome-box button:hover {
+                transform: scale(1.1);
+            }
     </style>
     <div class="welcome-overlay">
     <div class="welcome-box-bg"></div>
       <div class="welcome-box">
+      <img src="https://muhammad-hasan-web-developer.github.io/icon/Hasan 1.ico" alt="Welcome">
         <h2>Welcome to Visual Studio Code.</h2>
         <p>I hope you have a great time with coding!</p>
         <button id="close-welcome">Okay</button>
