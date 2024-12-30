@@ -14,13 +14,19 @@ if (!sessionStorage.getItem('visited')) {
         align-items: center;
         z-index: 9999;
       }
+
+      .welcome-box-bg {
+      background: linear-gradient(-45deg, green, darkgreen, black, transparent);
+      }
       
       .welcome-box {
-        background: linear-gradient(45deg, #550303, #06026b);
+        background: linear-gradient(#69ba19, #baaf19);
         padding: 2em;
         border-radius: 20px;
         text-align: center;
-        color: white;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: bolder;
         max-width: 500px;
         animation: slideIn 0.5s ease-out;
       }
@@ -31,11 +37,13 @@ if (!sessionStorage.getItem('visited')) {
       }
     </style>
     <div class="welcome-overlay">
+    <div class="welcome-box-bg"></div>
       <div class="welcome-box">
-        <h2>Selamat Datang!</h2>
-        <p>Terima kasih telah mengunjungi website saya.</p>
-        <button id="close-welcome">Tutup</button>
+        <h2>Welcome to Visual Studio Code.</h2>
+        <p>I hope you have a great time with coding!</p>
+        <button id="close-welcome">Okay</button>
       </div>
+     </div> 
     </div>
   `;
   document.body.appendChild(popup);
