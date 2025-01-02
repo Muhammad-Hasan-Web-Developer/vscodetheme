@@ -91,7 +91,7 @@ if (!sessionStorage.getItem('visited')) {
 </style>
 <div class="welcome-overlay">
     <div class="welcome-box">
-        <img src="vscode.png" alt="Welcome">
+        <img src="https://muhammad-hasan-web-developer.github.io/vscodetheme/vscode.png" alt="Welcome">
         <h2>Welcome to Visual Studio Code.</h2>
         <p>I hope you have a great time with coding!</p>
         <button id="close-welcome">
