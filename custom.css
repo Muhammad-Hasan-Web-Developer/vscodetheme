@@ -85,8 +85,4 @@
     content: '';
     background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
 } */
-
-on:before {
-    content: '';
-    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg);
 }
