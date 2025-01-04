@@ -76,12 +76,12 @@
 
 /* icon copilot navbar */
 
-.codicon-copilot {
+.codicon-copilot:before {
     content: '';
     background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
 }
 
-.codicon-copilot-logo {
+.codicon-copilot-logo:before {
     content: '';
     background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
 }
