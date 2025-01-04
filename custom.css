@@ -73,3 +73,15 @@
     content: '';
     background-image: url(https://cdn-icons-png.freepik.com/512/4208/4208535.png);
 }
+
+/* icon copilot navbar */
+
+.codicon-copilot {
+    content: '';
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
+}
+
+.codicon-copilot-logo {
+    content: '';
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
+}
