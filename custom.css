@@ -1,1 +1,75 @@
+.monaco-workbench.vs-dark .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress {
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/vscode.png);
+}
 
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind {
+    /* background-color: var(--vscode-statusBarItem-remoteBackground); */
+    color: var(--vscode-statusBarItem-remoteForeground);
+}
+
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item {
+    display: inline-block;
+    font-variant-numeric: tabular-nums;
+    height: 100%;
+    line-height: 22px;
+    max-width: 40vw;
+    vertical-align: top;
+    background: green;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* icons for file */
+.show-file-icons .php-lang-file-icon.file-icon::before, .show-file-icons .blade-lang-file-icon.file-icon::before, .show-file-icons .php\.inc-ext-file-icon.inc-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #a074c4;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/8099/8099574.png);
+}
+
+.show-file-icons .html-lang-file-icon.file-icon::before, .show-file-icons .django-html-lang-file-icon.file-icon::before, .show-file-icons .component-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #e37933;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/7404/7404512.png);
+}
+
+.show-file-icons .css-lang-file-icon.file-icon::before, .show-file-icons .postcss-lang-file-icon.file-icon::before, .show-file-icons .css\.map-ext-file-icon.map-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .sss-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #519aba;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/7404/7404503.png);
+}
+
+.show-file-icons .javascript-lang-file-icon.file-icon::before, .show-file-icons .js\.map-ext-file-icon.map-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .cjs\.map-ext-file-icon.map-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mjs\.map-ext-file-icon.map-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .es-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .es5-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .es7-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #cbcb41;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/8099/8099526.png);
+}
+
+.show-file-icons .readme\.md-name-file-icon.name-file-icon.md-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .readme\.txt-name-file-icon.name-file-icon.txt-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .readme-name-file-icon.name-file-icon.ext-file-icon.file-icon::before {
+    color: #519aba;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/6916/6916016.png);
+}
+
+.show-file-icons .ico-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #cbcb41;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/7915/7915382.png);
+}
+
+.show-file-icons .mov-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .ogv-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .webm-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .avi-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mpg-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .mp4-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #f55385;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/6512/6512789.png);
+}
+
+.show-file-icons .avif-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .gif-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jpg-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .jpeg-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .png-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .pxm-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .svgx-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .tiff-ext-file-icon.ext-file-icon.file-icon::before, .show-file-icons .webp-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #a074c4;
+    content: '';
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/021/778/349/small_2x/picture-icon-in-gradient-colors-gallery-symbol-illustration-png.png);
+}
+
+.show-file-icons .svg-ext-file-icon.ext-file-icon.file-icon::before {
+    color: #a074c4;
+    content: '';
+    background-image: url(https://cdn-icons-png.freepik.com/512/4208/4208535.png);
+}
