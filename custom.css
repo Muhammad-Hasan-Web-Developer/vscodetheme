@@ -14,7 +14,7 @@
     line-height: 22px;
     max-width: 40vw;
     vertical-align: top;
-    background: green;
+    background: linear-gradient(-45deg, rgba(169,93,255,1) 36%, rgba(0,212,255,1) 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
