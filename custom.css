@@ -85,4 +85,20 @@
     content: '';
     background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
 } */
+
+/* text */
+.mtk6 {
+    color: #569cd6;
+    background: linear-gradient(-45deg, rgba(169, 93, 255, 1) 36%, rgba(0, 212, 255, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+}
+
+.mtk10 {
+    color: #9cdcfe;
+    background: linear-gradient(-45deg, rgba(27, 108, 255, 1) 0%, rgba(84, 226, 255, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
 }
