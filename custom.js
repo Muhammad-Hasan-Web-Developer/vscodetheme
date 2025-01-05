@@ -16,7 +16,7 @@ if (!sessionStorage.getItem('visited')) {
         }
 
         .welcome-box {
-            background: linear-gradient(45deg, #550303, #06026b);
+            background: linear-gradient(-45deg, rgba(169,93,255,1) 36%, rgba(0,212,255,1) 100%);
             padding: 2em;
             border-radius: 20px;
             text-align: center;
