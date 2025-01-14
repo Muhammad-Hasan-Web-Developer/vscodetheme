@@ -74,18 +74,14 @@
     background-image: url(https://cdn-icons-png.freepik.com/512/4208/4208535.png);
 }
 
-/* icon copilot navbar
-
-.codicon-copilot:before {
-    content: '';
-    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
-}
-
-.codicon-copilot-logo:before {
-    content: '';
-    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/copilot.png);
-} */
-
+ /* Menambahkan style untuk class "codicon-accounts-view-bar-icon" */
+        .iconforakun {
+            background-image: url('https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg');
+            z-index: 30000;
+            height: 40px;
+            width: 40px;
+            background-size: 100%;
+        }
 /* text */
 .mtk6 {
     color: #569cd6;
