@@ -98,3 +98,45 @@
     background-clip: text;
     font-weight: 700;
 }
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label .label-name, .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label .label-name {
+    white-space: nowrap;
+    background: linear-gradient(-45deg, rgba(169, 93, 255, 1) 36%, rgba(0, 212, 255, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+}
+
+.monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>.label-name {
+    color: inherit;
+    white-space: pre;
+    background: linear-gradient(-45deg, rgba(169, 93, 255, 1) 36%, rgba(0, 212, 255, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+}
+
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item>.statusbar-item-label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    outline-width: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    white-space: pre;
+    font-weight: 800;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:not(.codicon) {
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.codicon-accounts-view-bar-icon:before {
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg);
+    background-size: 100%;
+}
