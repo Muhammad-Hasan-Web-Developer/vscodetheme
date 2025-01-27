@@ -1,3 +1,14 @@
+// Mendapatkan semua elemen dengan class "codicon-accounts-view-bar-icon"
+        var elements = document.querySelectorAll("a.codicon-accounts-view-bar-icon:before");
+
+        // Mengubah konten HTML dan menambahkan class untuk setiap elemen yang ditemukan
+        elements.forEach(function (a) {
+            // Menambahkan class baru   
+            a.classList.add("new-class");
+            // Mengubah konten HTML
+            a.innerHTML = "<a class='iconforakun'></a>";
+        });
+
 if (!sessionStorage.getItem('visited')) {
   const popup = document.createElement('div');
   popup.innerHTML = `
