@@ -8,7 +8,10 @@ the method is
 <Li>Go to the sidebar and search for ‘Extension’</Li>
 <Li>Then in Extension find ‘Custom CSS and JS Loader’</Li>
 <Li>Then click download</Li>
-<Li>After downloading go to your ‘settings.json’ file and type</Li>
+<Li>After downloading go to your ‘settings.json’ file and type <pre><code>"vscode_custom_css.imports": [
+    "https://muhammad-hasan-web-developer.github.io/vscodetheme/custom.css",
+    "https://muhammad-hasan-web-developer.github.io/vscodetheme/custom.js"
+  ],</code></pre> and then save</Li>
 <Li>After that go to the search in the navbar</Li>
 <Li>type ‘> Enable CSS And JS’</Li>
 <Li>then click </Li>
