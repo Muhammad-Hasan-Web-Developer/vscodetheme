@@ -76,7 +76,7 @@
 
  /* Menambahkan style untuk class "codicon-accounts-view-bar-icon" */
         .iconforakun {
-            background-image: url('https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg');
+            background-image: url('https://muhammad-hasan-web-developer.github.io/vscodetheme/vscode.png');
             z-index: 30000;
             height: 40px;
             width: 40px;
@@ -130,13 +130,13 @@
 }
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:not(.codicon) {
-    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg);
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/vscode.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 90%;
 }
 
 .codicon-accounts-view-bar-icon:before {
-    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/me.jpg);
+    background-image: url(https://muhammad-hasan-web-developer.github.io/vscodetheme/vscode.png);
     background-size: 100%;
 }
