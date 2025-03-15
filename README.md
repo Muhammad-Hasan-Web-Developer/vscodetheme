@@ -36,4 +36,3 @@ the method is
 <Li><img src="Cuplikan layar 2025-03-12 090228.png"> <br><br>After that reload your VSCode and become the theme!🎉🎉</Li>
 </ol>
 <b>NOTE: If you see the message ‘Your VSCode is corrupted,’ leave it alone because this does not break the VSCode but only changes the theme.</b>
-Add files via upload
