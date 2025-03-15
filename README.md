@@ -1,10 +1,10 @@
 <img src="AAF-1Cbbs4M_1741687440789.jpg" width="100">
 
 # Hello everyone
-This Visual Studio Code theme is free for everyone
+This Visual Studio Code theme is free for everyone<br>
 The theme it looks like this
 <img src="Cuplikan layar 2025-03-12 090910.png">
-it's also very easy to use 
+it's also very easy to use<br> 
 the method is
 <ol>
 <Li><img src="Cuplikan layar 2025-03-12 085716.png">  <br>
