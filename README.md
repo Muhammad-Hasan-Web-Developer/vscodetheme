@@ -1,5 +1,5 @@
 <img src="AAF-1Cbbs4M_1741687440789.jpg" width="100">
-
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=muhammad-hasan-web-developer&color=green&style=plastic"></p>
 # Hello everyone
 This Visual Studio Code theme is free for everyone<br>
 The theme it looks like this
